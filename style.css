@@ -2,7 +2,7 @@
 
 :root {
   --text-color: rgb(252, 252, 252);
-  --shadow-color: rgba(8, 8, 8, 0.4);
+  /* --shadow-color: rgba(8, 8, 8, 0.4); */
   --btn-color: hsl(210, 80%, 42%);
   --bg-color: #141218;
 }
@@ -144,4 +144,14 @@ button::before {
 
 .border-r{
     border-radius: 10px;
+}
+
+.bg{
+  background-image: url(/images/vecteezy_one\ line\ art_background3_aa0221.jpg);
+  background-position: top;
+  background-size: 80rem;
+}
+
+.mx{
+  padding-top: 10%;
 }

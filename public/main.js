@@ -9,8 +9,3 @@ fakecallbtn.addEventListener('click', () => {
     headers: { 'Content-Type': 'application/json' },
   })
 })
-
-chatbotBtn.addEventListener('click', () => {
-  const num = '+1 (415) 523-8886'
-  alert('Chatbot number is ' + num)
-})

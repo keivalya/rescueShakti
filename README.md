@@ -1,4 +1,4 @@
-# rescueShakti
+# Rescue Shakti
 
 ## Inspiration
 On numerous occasions, I've found women close to me being concerned about their safety. I wanted to create something that just aides ladies in whatever manner imaginable. It began as a way to assist women, but it has since evolved into a web-app that anybody can use to avoid engaging with individuals who make them uncomfortable or anxious.

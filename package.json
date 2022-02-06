@@ -1,0 +1,23 @@
+{
+  "name": "rescueshakti",
+  "version": "1.0.0",
+  "description": "On numerous occasions, we've found women concerned about their **safety**. We wanted to create something that just aides ladies in whatever manner imaginable. It began as a way to assist women, but it has since evolved into a web-app that anybody can use to avoid engaging with individuals who make them uncomfortable or anxious.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keivalya/rescueShakti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keivalya/rescueShakti/issues"
+  },
+  "homepage": "https://github.com/keivalya/rescueShakti#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "twilio": "^3.73.1"
+  }
+}

@@ -2,7 +2,6 @@
 
 ## Inspiration
 Sexual harassment and other forms of sexual violence in public spaces, both in urban and rural settings, are an everyday occurrence for women and girls in every country around the world. <br/>
-Although domestic and workplace violence is now widely recognized as a human rights violation, sexual harassment and other forms of violence against women and girls in public spaces are often neglected, with few laws or policies in place to prevent and address it. <br/>
 On numerous occasions, we've found women concerned about their **safety**. We wanted to create something that just aides ladies in whatever manner imaginable. It began as a way to assist women, but it has since evolved into a web-app that anybody can use to avoid engaging with individuals who make them uncomfortable or anxious.
 
 ## What it does

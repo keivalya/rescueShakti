@@ -123,9 +123,9 @@ button::before {
 .section-2{
     background-color:rgb(255, 255, 255);
     padding: 4%;
-    background-image: url(../images/vecteezy_Activism\ \(Juneteenth\)-Festivity-Background_pg0321-01.jpg);
+    background-image: url(../images/887_R1IgREFOIDEwNy05Ng.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: 80rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,5 +153,5 @@ button::before {
 }
 
 .mx{
-  padding-top: 10%;
+  padding-top: 15%;
 }

@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 
 const app = express()
@@ -13,9 +14,8 @@ const port = process.env.NODE_ENV || 8000
 app.listen(port, () => {
   console.log('server started at port ', +port)
 })
-
-// const accountSid = 'AC0d8e1ac38fc7e791fa970f53085f2f67'
-// const authToken = '967ff851c5dd4ba05c59c95fbc7ee67e'
+// const accountSid = process.env.TWILIO_SID
+// const authToken = process.env.TWILIO_AUTH_TOKEN
 // const client = require('twilio')(accountSid, authToken)
 // client.calls
 //   .create({
@@ -24,10 +24,6 @@ app.listen(port, () => {
 //     from: '+19125518360',
 //   })
 //   .then((call) => console.log(call.sid))
-
-// const accountSid = 'AC0d8e1ac38fc7e791fa970f53085f2f67';
-// const authToken = '[AuthToken]';
-// const client = require('twilio')(accountSid, authToken);
 
 // client.messages
 //       .create({

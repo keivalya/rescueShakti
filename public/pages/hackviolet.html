@@ -102,6 +102,28 @@
         </div>
       </div>
     </section>
+    <script>
+      var x = document.getElementById("location");
+
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+          x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+      }
+
+      var locLink = "https://maps.google.com/?q="+position.coords.latitude+","+position.coords.longitude;
+
+      function showPosition(position) {
+        x.innerHTML = "<h5>"+
+          "Latitude: " +
+          position.coords.latitude +
+          "<br>Longitude: " +
+          position.coords.longitude + "</h5>"+
+          "Please link this to your friends and family. Stay safe :)"+"<br><h5><a href = 'https://maps.google.com/?q="+position.coords.latitude+","+position.coords.longitude+"', target='_blank'>https://maps.google.com/?q="+position.coords.latitude+","+position.coords.longitude+"</h5>";
+      }
+    </script>
 
     <!-- About Project -->
     <section class="bg-dark p-5" id="about">
@@ -310,8 +332,9 @@
 
       <div
         class="text-center bg-dark text-white p-3"
+
         style="background-color: rgba(0, 0, 0, 0.2);"
-      >
+
         <i>Copyright © 2022. All rights reserved.</i>
       </div>
     </footer>

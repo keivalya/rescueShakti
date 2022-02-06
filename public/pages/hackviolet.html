@@ -58,9 +58,10 @@
               <a
                 href="login.html"
                 class="btn btn-warning"
-                style="border-radius: 15px"
-                >Logout</a
+                style="border-radius: 15px;"
               >
+                Logout
+              </a>
             </li>
           </ul>
         </div>
@@ -73,23 +74,23 @@
         <div class="d-flex align-items-center justify-content-center main">
           <div class="row text-center gy-3 gx-4 mx-5">
             <div class="col-md text-center">
-              <button
-                type="button"
-                class="btn btn-dark btn-size"
-                onclick="getLocation()"
-              >
+              <button type="button" class="btn btn-dark btn-size">
                 <h4 class="">Send Location</h4>
               </button>
             </div>
 
             <div class="col-md text-center">
-              <button type="button" class="btn btn-warning btn-size">
+              <button
+                type="button"
+                class="btn btn-warning btn-size"
+                id="fakecall"
+              >
                 <h4 class="">Fake Call Me</h4>
               </button>
             </div>
 
             <div class="col-md text-center">
-              <button type="button" class="btn btn-dark btn-size">
+              <button id="chatbot" type="button" class="btn btn-dark btn-size">
                 <h4 class="">Chatbot Number</h4>
               </button>
             </div>
@@ -97,7 +98,7 @@
         </div>
 
         <div class="row">
-          <h4><p id="location"></p></h4>
+          <h2><p id="location">Location:</p></h2>
         </div>
       </div>
     </section>
@@ -184,8 +185,9 @@
                     href="https://www.linkedin.com/in/divya-sri-darimisetti"
                     target="_blank"
                     class="btn btn-warning"
-                    >Know More</a
                   >
+                    Know More
+                  </a>
                 </div>
               </div>
             </div>
@@ -204,8 +206,9 @@
                     href="http://keivalya.github.io/"
                     target="_blank"
                     class="btn btn-warning"
-                    >Know More</a
                   >
+                    Know More
+                  </a>
                 </div>
               </div>
             </div>
@@ -222,8 +225,9 @@
                     href="https://www.linkedin.com/in/jay-goswami-8995111aa/"
                     target="_blank"
                     class="btn btn-warning"
-                    >Know More</a
                   >
+                    Know More
+                  </a>
                 </div>
               </div>
             </div>
@@ -244,8 +248,9 @@
                     href="http://www.linkedin.com/in/sairajchouhan"
                     target="_blank"
                     class="btn btn-warning"
-                    >Know More</a
                   >
+                    Know More
+                  </a>
                 </div>
               </div>
             </div>
@@ -264,59 +269,72 @@
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img
+          >
+            <img
               src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png"
-          /></a>
+            />
+          </a>
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
-          /></a>
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
+            />
+          </a>
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img
+          >
+            <img
               src="https://img.icons8.com/ios-filled/50/ffffff/gmail-new.png"
-          /></a>
+            />
+          </a>
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img
+          >
+            <img
               src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"
-          /></a>
+            />
+          </a>
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img
+          >
+            <img
               src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
-          /></a>
+            />
+          </a>
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img src="https://img.icons8.com/ios-filled/50/ffffff/github.png"
-          /></a>
+          >
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" />
+          </a>
         </section>
       </div>
 
       <div
         class="text-center bg-dark text-white p-3"
-        style="background-color: rgba(0, 0, 0, 0.2)"
-      >
+
+        style="background-color: rgba(0, 0, 0, 0.2);"
+
         <i>Copyright © 2022. All rights reserved.</i>
       </div>
     </footer>
@@ -326,5 +344,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="../main.js"></script>
   </body>
 </html>

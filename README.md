@@ -1,7 +1,7 @@
 # Rescue Shakti
 
 ## Inspiration
-On numerous occasions, I've found women close to me being concerned about their safety. I wanted to create something that just aides ladies in whatever manner imaginable. It began as a way to assist women, but it has since evolved into a web-app that anybody can use to avoid engaging with individuals who make them uncomfortable or anxious.
+On numerous occasions, we've found women concerned about their **safety**. We wanted to create something that just aides ladies in whatever manner imaginable. It began as a way to assist women, but it has since evolved into a web-app that anybody can use to avoid engaging with individuals who make them uncomfortable or anxious.
 
 ## What it does
 We have tried to implement the following features:
@@ -10,7 +10,7 @@ We have tried to implement the following features:
 - **Chatbot:** You may provide the number of the chatbot that _gives sarcastic responses_ to anyone you don't want to reveal your own phone number to and feel at ease.
 
 ## How we built it
-
+We have used JavaScript in order to retrieve 
 
 ## Challenges we ran into
 

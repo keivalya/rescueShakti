@@ -11,16 +11,16 @@ We have tried to implement the following features:
 
 ## How we built it
 We have used JavaScript to retrieve the Geolocation of the user and Google Maps API in order to share current location accurately with anyone anywhere across your contacts.
-We have used Twilio to generate fake call given to your registered mobile number with least amount of latency.
+We have used Twilio to generate fake calls given to your registered mobile number with the least amount of latency.
 The chatbot is hosted on _________
 
 ## Challenges we ran into
-We are relatively new in working with Twilio as well as Google Maps APIs, however we did manage to implement both the tech-stags into our project with good expected amount of accuracy from an end-user product.
+We are relatively new in working with Twilio as well as Google Maps APIs, however, we did manage to implement both the tech stacks into our project with a good expected amount of accuracy from an end-user product.
 
 ## Accomplishments that we're proud of
-Being able to introduce a solution that has not been done before or perhaps, not widely known due to limited feasibility of it. Howevere, we have demonstrated the possibility, how a web-app can be as minimal as possible, yet work incredibly well.
+Being able to introduce a solution that has not been done before or perhaps, not widely known due to its limited feasibility of it. However, we have demonstrated the possibility, of how a web-app can be as minimal as possible, yet work incredibly well.
 
 ## What we learned
-As mentioned earlier, all of use are relatively new to some technologies like Twilio, Google Map APIs, Bootstrap and so on. This hackathon has made us push our limits further to accomplish the goals we set for ourselves.
+As mentioned earlier, all of us are relatively new to some technologies like Twilio, Google Map APIs, Bootstrap and so on. This hackathon has made us push our limits further to accomplish the goals we set for ourselves.
 
 ## What's next for Shakti

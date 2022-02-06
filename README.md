@@ -10,7 +10,7 @@ We have tried to implement the following features:
 - **Chatbot:** You may provide the number of the chatbot that _gives sarcastic responses_ to anyone you don't want to reveal your own phone number to and feel at ease.
 
 ## How we built it
-We have used JavaScript in order to retrieve 
+We have used JavaScript to retrieve the Geolocation of the user and Google Maps API in order to 
 
 ## Challenges we ran into
 

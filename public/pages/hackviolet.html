@@ -90,7 +90,7 @@
             </div>
 
             <div class="col-md text-center">
-              <button id="chatbot" type="button" class="btn btn-dark btn-size">
+              <button id="chatbot" type="button" class="btn btn-dark btn-size" onclick="showChatbot()">
                 <h4 class="">Chatbot Number</h4>
               </button>
             </div>
@@ -98,12 +98,12 @@
         </div>
 
         <div class="row">
-          <h2><p id="location"></p></h2>
+          <h2><p id="placeHolder"></p></h2>
         </div>
       </div>
     </section>
     <script>
-      var x = document.getElementById("location");
+      var x = document.getElementById("placeHolder");
 
       function getLocation() {
         if (navigator.geolocation) {
@@ -122,6 +122,11 @@
           "<br>Longitude: " +
           position.coords.longitude + "</h5>"+
           "Please link this to your friends and family. Stay safe :)"+"<br><h5><a href = 'https://maps.google.com/?q="+position.coords.latitude+","+position.coords.longitude+"', target='_blank'>https://maps.google.com/?q="+position.coords.latitude+","+position.coords.longitude+"</h5>";
+      }
+
+      function showChatbot(){
+          x.innerHTML = "<h4>Is any creepy person pestering you for your personal contact details?"+
+          "<br>WE GOT YO BACK! Let our charbot handle it for you 😉 at +1 (415) 523-8886 </h4>"
       }
     </script>
 

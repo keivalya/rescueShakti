@@ -1,10 +1,10 @@
 require('dotenv').config()
 const express = require('express')
+const app = express()
 
 const accountSid = process.env.TWILIO_SID
 const authToken = process.env.TWILIO_AUTH_TOKEN
 const client = require('twilio')(accountSid, authToken)
-const app = express()
 
 app.use(express.static('public'))
 app.use(express.json())
@@ -15,24 +15,23 @@ app.get('/health', (_, res) => {
 
 app.post('/fakecall', async (req, res) => {
   const phoneNumber = req.body.phoneNumber
-  const call = await client.calls.create({
-    url: 'http://demo.twilio.com/docs/voice.xml',
-    to: phoneNumber,
-    from: '+19125518360',
-  })
-  // .then((call) => {
-  //   res.json({ success: 'call has been successful' })
-  // })
-  // .catch((err) => {
-  //   res.status(400).json({ error: 'call failed' })
-  // })
-  res.json({ success: 'call has been successful' })
+  try {
+    await client.calls.create({
+      url: 'http://demo.twilio.com/docs/voice.xml',
+      to: phoneNumber,
+      from: '+19125518360',
+    })
+    res.json({ success: 'call has been successful' })
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: err.message })
+  }
 })
 
-const port = process.env.NODE_ENV || 8000
+const port = process.env.PORT || 8000
 
 app.listen(port, () => {
-  console.log('server started at port ', +port)
+  console.log('server started at port', port)
 })
 
 // client.messages

@@ -1,7 +1,10 @@
 # Rescue Shakti
 
 ## Inspiration
+Sexual harassment and other forms of sexual violence in public spaces, both in urban and rural settings, are an everyday occurrence for women and girls in every country around the world. <br/>
 On numerous occasions, we've found women concerned about their **safety**. We wanted to create something that just aides ladies in whatever manner imaginable. It began as a way to assist women, but it has since evolved into a web-app that anybody can use to avoid engaging with individuals who make them uncomfortable or anxious.
+<br/><br/>
+<img src="https://media1.giphy.com/media/S64lALNmPWIWloPJ9L/giphy.gif?cid=790b7611cac787f835a22ceb73ab409606972491c2471a18&rid=giphy.gif&ct=g" width="480" height="270">
 
 ## What it does
 We have tried to implement the following features:
